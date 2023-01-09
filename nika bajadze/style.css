@@ -1,0 +1,327 @@
+.cover {
+    width: calc(100% - 64px);
+    height: calc(100vh - 64px);
+    margin: 32px auto 0 auto;
+    background-color: #818ABA;
+    padding: 39px 68px;
+    box-sizing: border-box;
+    border-radius: 40px; 
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo1 {
+    width: 96px;
+    height: 35px;
+}
+nav {
+    min-width: 480px;
+}
+ul.main-navigation {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-navigation li a {
+    font-family: 'unbounded',cursive;
+    color: #666680;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 200;
+    text-decoration: none;
+}
+.main-navigation li a :hover {
+    color: white;
+    transition: 0.5s;
+}
+.header-btn {
+    background-color: #fff;
+    color: #524FD5;
+}
+.header-btn :hover {
+    opacity: 70%;
+    transition: 0.5s;
+}
+.button {
+    font-family: 'heebo',sans-serif;
+    padding: 18px 32px;
+    font-size: 18px;
+    border-radius: 73px;
+    text-decoration: none;
+}
+h1 {
+    font-family: 'Oswald',sans-serif;
+    font-size: 56px;
+    line-height: 71px;
+    color: #181B32;
+    font-weight: 300;
+}
+.cover-btn {
+    background-color: #524fd5;
+    color: white;
+    display: inline-block;
+    margin-top: 30px;
+}
+.cover-content-wrapper {
+    margin-top: 125px;
+    display: flex;
+}
+.logo {
+    margin-left: 700px;
+    margin-top: -350px;
+    border-radius: 50px;
+    width: 400px;
+    opacity: 30%;
+    transform: rotate(-5deg);
+}
+
+.logo-1 {
+    margin-left: 700px;
+    margin-top: -350px;
+    border-radius: 50px;
+    width: 400px;
+    height: 300px;
+    transform: rotate(5deg);
+}
+.higlight-color {
+    color: #524fd5;
+}
+.logo-2 {
+    border-radius: 10px;
+    width: 180px;
+    margin-left: 650px;
+    margin-top: -600px;
+    transform: rotate(1deg);
+}
+.vite {
+    float: right;
+    margin-top: -310px;
+    transform: rotate(1deg);
+    margin-right: 300px;
+    font-size: 13px;
+}
+.logo-3 {
+    width: 40px;
+    border-radius: 200px;
+    margin-top: -600px;
+    transform: rotate(1deg);
+    margin-left: -180px;
+}
+.vite-1 {
+    float: right;
+    margin-top: -290px;
+    margin-right: px;
+    transform: rotate(1deg);
+    margin-right: 265px;
+    font-size: 13px;
+}
+.vite-2 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Oswald',sans-serif;
+    text-transform: uppercase;
+    color: #b0b0c0;
+    margin-top: 50px;
+    margin-bottom: 4px;
+}
+.vite-3 {
+    text-align: center;
+    color: #181B32;
+    font-family: 'Oswald',sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 62px;
+}
+.values p {
+    font-family: 'Oswald' , sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #181B32;
+    margin-bottom: 16px;
+    margin-top: -150px;
+}
+.values-1 p  {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-weight: 200px;
+    font-size: 18px;
+    line-height: 34px;
+    color: #666680;
+}
+.values-1 {
+    margin-top: 200px;
+    width: 320px;
+    height: 100px;
+    margin-left: 50px;
+}
+.values {
+    margin-left: 50px;
+    width: 300px;
+    height: 400px;
+}
+.values-2 p {
+    font-family: 'Oswald' , sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #181B32;
+    margin-top: -400px;
+}
+.values-3 p {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-weight: 200px;
+    font-size: 18px;
+    line-height: 34px;
+    color: #666680;
+    margin-top: 14px;
+}
+.values-3 {
+    height: 100px;
+    width: 390px;
+    margin-left: 465px;
+}
+.values-4 p{
+    font-family: 'Oswald' , sans-serif;
+    text-align: right;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #181B32;
+    margin-right: 100px;
+}
+.values-5 p {
+    font-family: 'Oswald', sans-serif;
+    text-align: right;
+    font-weight: 200px;
+    font-size: 14px;
+    line-height: 34px;
+    color: #666680;
+    margin-top: 14px;
+    margin-right: 100px;
+}
+.values-4 {
+    margin-top: -150px;
+}
+.values-5 {
+    height: 100px;
+    width: 450px;
+    margin-left: 915px;
+}
+.git p {
+    margin-top: 400px;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Oswald',sans-serif;
+    text-transform: uppercase;
+    color: #b0b0c0;
+    margin-left: 50px;
+}
+.git-1 p {
+    font-family: 'Oswald' , sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #181B32;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.logo-4 {
+    width: 300px;
+    margin-left: 40px;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+.logo-5 {
+    width: 500px;
+    border-radius: 50px;
+    margin-left: 100px;
+}
+.logo-6 {
+    width: 340px;
+    border-radius: 50px;   
+}
+.git-2 {
+    font-family: 'Oswald' , sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #181B32;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.git-3 {
+    font-size: 14px;
+    font-family: 'Oswald',sans-serif;
+    color: #b0b0c0;
+    font-weight: 500px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.git-4 {
+    text-align: center;
+    font-family: 'Oswald' , sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #181B32;
+    margin-top: -70px;
+    margin-left: -170px;
+}
+.git-5 {
+    font-size: 14px;
+    font-family: 'Oswald',sans-serif;
+    color: #b0b0c0;
+    font-weight: 500px;
+    text-align: center;
+    margin-right: 160px;
+    margin-top: 20px;
+}
+.git-6 {
+    text-align: right;
+    font-family: 'Oswald' , sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #181B32;
+    margin-right:160px;
+    margin-top: -70px;
+}
+.git-7 {
+    font-size: 14px;
+    font-family: 'Oswald',sans-serif;
+    color: #b0b0c0;
+    font-weight: 500px;
+    text-align: right;
+    margin-right: 180px;
+    margin-top: 20px;
+}
+.r p {
+    margin-top: 200px;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Oswald',sans-serif;
+    text-transform: uppercase;
+    color: #b0b0c0;
+    margin-left: 50px;
+}
+.r-1 p {
+    font-family: 'Oswald' , sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #181B32;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.logo-7 {
+    border-radius: 50px;
+    margin-left:40px; 
+}
